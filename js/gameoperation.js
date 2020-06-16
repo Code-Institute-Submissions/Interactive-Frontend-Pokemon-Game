@@ -10,5 +10,6 @@ const GameOperation = {
        this.setUpBattle();
 
      }
+
      
-    }
+}
