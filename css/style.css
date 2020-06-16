@@ -1,0 +1,44 @@
+.bulbasaur {
+  color: #99eebb;
+}
+
+.charmander {
+  color: #e68600;
+}
+
+.squirtle {
+  color: #14b5d0;
+}
+
+.pikachu {
+  color: #fce205;
+}
+
+a {
+  text-decoration: none;
+}
+
+ img {
+  width: 100px;
+  padding: 30px;
+}
+
+.stadium-img {
+  width: 80%;
+  max-width: 500px;
+  padding-left: 3em;
+  justify-content: center;
+}
+
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Press Start 2P";
+  justify-content: center;
+
+}
+
+.header {
+  text-align: center;
+}
