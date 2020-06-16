@@ -54,7 +54,44 @@ const GameOperation = {
                                                             // for css styling
      stadium.innerHTML = '<img src="imgs/battle/rocket_logo.png" class="rocket-img">';
 
-   }
+   },
 
+     battle: function() {
 
+     const title = document.querySelector(".title");
+     const search = document.querySelector(".opponent-search");
+     const stadium = document.querySelector(".stadium");
+     const rocketOpponent = document.querySelector(".rocket-opponent");
+
+     let rocketPokemonOne = new RocketPokemon("ekans", 100, 60, 50, 50, 50);
+     let rocketPokemonTwo = new RocketPokemon("koffing", 100, 60, 100, 50, 40);
+     let rocketPokemonThree = new RocketPokemon("meowth", 100, 50, 40, 40, 50);
+
+     //Random Number Generator (RNG) to select 1 of 3 opponents
+     //the math.floor math.random equation for working out a random number was taken from w3Schools.
+     let rocketPokemonSelection = Math.floor(Math.random() * Math.floor(3));
+
+     switch (rocketPokemonSelection) {
+
+     case 0:
+         rocketPokemon = rocketPokemonOne;
+     break;
+     case 1:
+         rocketPokemon = rocketPokemonTwo;
+     break;
+     case 2:
+         rocketPokemon = rocketPokemonThree;
+     break;
+
+     }
+
+     title.innerHTML = '<p><h1>Fight!</h1></p>';
+                                          //for css styling
+     search.innerHTML = '<a href="#"><div class="attack-btn" onclick="PokemonAbilities.attackCalculation()"><h2>Attack!</h2></div></a>';
+
+     stadium.innerHTML = '<img src="imgs/battle/stadium.png" class="stadium-img">';
+
+     rocketOpponent.innerHTML = '<img src="imgs/rocket_sprites/' + rocketPokemon.rocketName + '.gif" class="chosen-rocket-pokemon"><div><h3>' + rocketPokemon.rocketName + '</h3><p class="rocketPokemon-hitpoints">HP: ' + rocketPokemon.hitPoints + '</p><p>ATK: ' + rocketPokemon.attack + '</p><p>DEF: ' + rocketPokemon.defense + '</p><p>SPEC: ' + rocketPokemon.special + '</p><p>SPEED: ' + rocketPokemon.speed + '</p></div>';
+
+  }
 }
