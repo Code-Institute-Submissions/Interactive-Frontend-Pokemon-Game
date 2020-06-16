@@ -23,6 +23,11 @@ a {
   padding: 30px;
 }
 
+.rocket-img {
+  width: 100px;
+  padding: 30px
+}
+
 .stadium-img {
   width: 80%;
   max-width: 500px;
@@ -39,6 +44,22 @@ body {
 
 }
 
-.header {
+.poke-bio {
+  text-align: center;
+}
+
+.opponent-search {
+  text-align: center;
+}
+
+.stadium {
+  text-align: center;
+}
+
+.rocket-opponent {
+  text-align: center;
+}
+
+.title {
   text-align: center;
 }
