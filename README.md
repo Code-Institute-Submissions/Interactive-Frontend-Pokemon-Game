@@ -9,6 +9,8 @@ the enemy Team Rocket (Ekans, Koffing, Meowth).
 
 The goal is to beat your opponent in a 1v1 pokemon battle with single attacks!
 
+[PLAY HERE!](https://oatsrx.github.io/Interactive-Frontend-Pokemon-Game/)
+
 ## UX
 
 This application is intended for gamers. The user will by the end of the game achive a win 
@@ -78,9 +80,7 @@ The results of the final user test were successful with only critisisms stated i
 features section of the readme.md, but with no errors in code. 
 
 ## Deployment
-
-https://oatsrx.github.io/Interactive-Frontend-Pokemon-Game/
-^^^^^^This project has been deployed to GitHub Pages^^^^^^^
+This project has been deployed to GitHub Pages - https://oatsrx.github.io/Interactive-Frontend-Pokemon-Game/
 
 ## Credits
 
