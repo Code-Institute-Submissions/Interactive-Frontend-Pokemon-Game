@@ -49,4 +49,26 @@ let PokemonAbilities = {
       const attackValues = [outputDamage, timesHit];
 
       return attackValues;
+
+    }
+
+    const rocketAttack = function() {
+
+      let dmgCalc;
+
+      if (rocketPokemon.special > 50) {
+        dmgCalc = rocketPokemon.attack * rocketPokemon.special / 1000 * 3;
+      } else {
+        dmgCalc = rocketPokemon.attack * rocketPokemon.speed / 1000 * 3;
+      }
+
+      const outputDamage = Math.floor(dmgCalc);
+
+      const timesHit = Math.floor(Math.random() * Math.floor(4)) + 1;
+
+      //Assigning the Pokemon attack values to an array to call upon later.
+      const attackValues = [outputDamage, timesHit];
+
+      return attackValues;
+
     }
