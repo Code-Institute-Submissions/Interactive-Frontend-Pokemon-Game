@@ -37,7 +37,24 @@ const GameOperation = {
     //Targeting 'poke-bio' section to replace with chosen character data
     pokeBio.innerHTML = '<img src="imgs/starter_sprites/' + pokemonName + '.gif" class="chosen-pokemon"><div><h3>' + pokemonName + '</h3><p class="pokemon-hitpoints">HP: ' + pokemon.hitPoints + '</p><p>ATK: ' + pokemon.attack + '</p><p>DEF: ' + pokemon.defense + '</p><p>SPEC: ' + pokemon.special + '</p><p>SPEED: ' + pokemon.speed + '</p></div>';
 
-     }
+     },
+
+     //this method will take the sections needed from the HTML file and assign
+     //new data (paragraphs, buttons and images) for the pre-battle.
+     setUpBattle: function() {
+
+     const title = document.querySelector(".title");
+     const search = document.querySelector(".opponent-search");
+     const stadium = document.querySelector(".stadium");
+     const rocketOpponent = document.querySelector(".rocket-opponent");
+
+     title.innerHTML = '<p><h2>Find a Team Rocket opponent!</h2></p><p><h3>Click "Find Opponent" to battle!</h3></p>';
+                                                              //for css styling
+     search.innerHTML = '<a href="#"><div class="search-btn" onclick="GameOperation.battle()"><h3>Find Opponent!</h3></div></a>';
+                                                            // for css styling
+     stadium.innerHTML = '<img src="imgs/battle/rocket_logo.png" class="rocket-img">';
+
+   }
 
 
 }

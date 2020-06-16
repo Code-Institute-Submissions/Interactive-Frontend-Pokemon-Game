@@ -10,6 +10,12 @@
 
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 
+<!-- scripts are being loaded before page content to make sure game files are 
+ready on launch this wouls not be done on a normal website/app -->
+  <script  src="js/gameoperation.js" type="text/javascript"></script>
+  <script  src="js/pokemon.js" type="text/javascript"></script>
+  <script  src="js/opponent.js" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -22,7 +28,7 @@
 <!-- Character section starts-->
     <section class="poke-bio">
 
-     <a href="#" class="bulbasaur">
+     <a href="#" class="bulbasaur" onclick="GameOperation.setUpGame('bulbasaur')">
         <img src="imgs/starter_sprites/bulbasaur.gif" alt="bulbasaur">
         <div>
             <h3>Bulbasaur</h3>
@@ -32,7 +38,7 @@
         </div>
       </a>
 
-      <a href="#" class="charmander">
+      <a href="#" class="charmander" onclick="GameOperation.setUpGame('charmander')">
         <img src="imgs/starter_sprites/charmander.gif" alt="charmander">
         <div>
             <h3>Charmander</h3>
@@ -42,7 +48,7 @@
         </div>
       </a>
 
-      <a href="#" class="squirtle" >
+      <a href="#" class="squirtle" onclick="GameOperation.setUpGame('squirtle')">
         <img src="imgs/starter_sprites/squirtle.gif" alt="squirtle">
         <div>
             <h3>Squirtle</h3>
@@ -52,7 +58,7 @@
         </div>
       </a>
 
-      <a href="#" class="pikachu">
+      <a href="#" class="pikachu" onclick="GameOperation.setUpGame('pikachu')">
         <img src="imgs/starter_sprites/pikachu.gif" alt="pikachu">
         <div>
             <h3>Pikachu</h3>
