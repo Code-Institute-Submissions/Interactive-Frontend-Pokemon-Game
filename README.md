@@ -1,5 +1,5 @@
 # Interactive Frontend Pokemon Starter Battle Game
--------------------------------------------------------------------------------------------
+
 This turn based game was designed to have fun and best your opponent in a simple Pokemon 
 battle.
 
@@ -10,7 +10,7 @@ the enemy Team Rocket (Ekans, Koffing, Meowth).
 The goal is to beat your opponent in a 1v1 pokemon battle with single attacks!
 
 ## UX
--------------------------------------------------------------------------------------------
+
 This application is intended for gamers. The user will by the end of the game achive a win 
 or loss status against their opponent in a single click per turn battle. The game is intended
 to be light hearted and fun.
@@ -21,7 +21,7 @@ the end of development was the priority. In the future i wish to impliment more 
 for user experience. 
 
 ## Features
--------------------------------------------------------------------------------------------
+
 ### Existing Features
 The user will select 1 of 4 starter Pokemon at the begining of the game based on personal
 favourites or skills listed in the Pokmeons bio. The user will then search for an opponent 
@@ -48,7 +48,7 @@ will be prompted to refresh the page to play again if they wish.
   near future
 
 ## Technologies Used
--------------------------------------------------------------------------------------------
+
 ### Languages
 - HTML
 - CSS
@@ -59,7 +59,7 @@ will be prompted to refresh the page to play again if they wish.
 - Gitpod IDE 
 
 ## Testing
--------------------------------------------------------------------------------------------
+
 Earlier stages of development I was constantly testing the "onclick=" event handlers which 
 are the main interaction point of the app. These where initailly testeed with undefined 
 parameters and failed.
@@ -78,12 +78,12 @@ The results of the final user test were successful with only critisisms stated i
 features section of the readme.md, but with no errors in code. 
 
 ## Deployment
--------------------------------------------------------------------------------------------
+
 https://oatsrx.github.io/Interactive-Frontend-Pokemon-Game/
 ^^^^^^This project has been deployed to GitHub Pages^^^^^^^
 
 ## Credits
--------------------------------------------------------------------------------------------
+
 ### Content
 Pokemon bio's - https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_I)
 
