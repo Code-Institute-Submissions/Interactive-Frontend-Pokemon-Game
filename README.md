@@ -79,7 +79,8 @@ features section of the readme.md, but with no errors in code.
 
 ## Deployment
 -------------------------------------------------------------------------------------------
-This project has been deployed to GitHub Pages
+https://oatsrx.github.io/Interactive-Frontend-Pokemon-Game/
+^^^^^^This project has been deployed to GitHub Pages^^^^^^^
 
 ## Credits
 -------------------------------------------------------------------------------------------
